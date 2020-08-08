@@ -98,6 +98,8 @@ def main():
         output['Date'] = msg['Date']
         output_list.append(output)
 
+    print(output_list)
+
 
 if __name__ == '__main__':
     main()
